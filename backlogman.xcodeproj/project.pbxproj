@@ -13,9 +13,6 @@
 		F85057C0177CE6980021FC7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F85057BE177CE6980021FC7D /* InfoPlist.strings */; };
 		F85057C2177CE6980021FC7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F85057C1177CE6980021FC7D /* main.m */; };
 		F85057C6177CE6980021FC7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F85057C5177CE6980021FC7D /* AppDelegate.m */; };
-		F85057C8177CE6980021FC7D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F85057C7177CE6980021FC7D /* Default.png */; };
-		F85057CA177CE6980021FC7D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F85057C9177CE6980021FC7D /* Default@2x.png */; };
-		F85057CC177CE6980021FC7D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F85057CB177CE6980021FC7D /* Default-568h@2x.png */; };
 		F85057D4177CE6980021FC7D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85057D3177CE6980021FC7D /* SenTestingKit.framework */; };
 		F85057D5177CE6980021FC7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85057B5177CE6980021FC7D /* UIKit.framework */; };
 		F85057D6177CE6980021FC7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85057B7177CE6980021FC7D /* Foundation.framework */; };
@@ -37,6 +34,7 @@
 		F850580A177CE9400021FC7D /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8505804177CE9400021FC7D /* Default-Portrait@2x.png */; };
 		F850580B177CE9400021FC7D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F8505805177CE9400021FC7D /* Default.png */; };
 		F850580C177CE9400021FC7D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8505806177CE9400021FC7D /* Default@2x.png */; };
+		F8ADE24A177CEF7700B4573E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8ADE249177CEF7700B4573E /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,9 +58,6 @@
 		F85057C3177CE6980021FC7D /* backlogman-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "backlogman-Prefix.pch"; sourceTree = "<group>"; };
 		F85057C4177CE6980021FC7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F85057C5177CE6980021FC7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F85057C7177CE6980021FC7D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		F85057C9177CE6980021FC7D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		F85057CB177CE6980021FC7D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F85057D2177CE6980021FC7D /* backlogmanTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = backlogmanTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F85057D3177CE6980021FC7D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		F85057DB177CE6980021FC7D /* backlogmanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "backlogmanTests-Info.plist"; sourceTree = "<group>"; };
@@ -85,6 +80,7 @@
 		F8505804177CE9400021FC7D /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
 		F8505805177CE9400021FC7D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F8505806177CE9400021FC7D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F8ADE249177CEF7700B4573E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,9 +155,6 @@
 				F85057BE177CE6980021FC7D /* InfoPlist.strings */,
 				F85057C1177CE6980021FC7D /* main.m */,
 				F85057C3177CE6980021FC7D /* backlogman-Prefix.pch */,
-				F85057C7177CE6980021FC7D /* Default.png */,
-				F85057C9177CE6980021FC7D /* Default@2x.png */,
-				F85057CB177CE6980021FC7D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -220,6 +213,7 @@
 				F8505804177CE9400021FC7D /* Default-Portrait@2x.png */,
 				F8505805177CE9400021FC7D /* Default.png */,
 				F8505806177CE9400021FC7D /* Default@2x.png */,
+				F8ADE249177CEF7700B4573E /* Default-568h@2x.png */,
 			);
 			path = launchImage;
 			sourceTree = "<group>";
@@ -296,9 +290,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F85057C0177CE6980021FC7D /* InfoPlist.strings in Resources */,
-				F85057C8177CE6980021FC7D /* Default.png in Resources */,
-				F85057CA177CE6980021FC7D /* Default@2x.png in Resources */,
-				F85057CC177CE6980021FC7D /* Default-568h@2x.png in Resources */,
 				F85057F6177CE7190021FC7D /* Icon-72.png in Resources */,
 				F85057F7177CE7190021FC7D /* Icon-72@2x.png in Resources */,
 				F85057F8177CE7190021FC7D /* Icon-Small-50.png in Resources */,
@@ -315,6 +306,7 @@
 				F850580A177CE9400021FC7D /* Default-Portrait@2x.png in Resources */,
 				F850580B177CE9400021FC7D /* Default.png in Resources */,
 				F850580C177CE9400021FC7D /* Default@2x.png in Resources */,
+				F8ADE24A177CEF7700B4573E /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
