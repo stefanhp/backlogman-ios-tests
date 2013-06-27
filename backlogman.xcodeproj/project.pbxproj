@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F85057B6177CE6980021FC7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85057B5177CE6980021FC7D /* UIKit.framework */; };
+		F85057B8177CE6980021FC7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85057B7177CE6980021FC7D /* Foundation.framework */; };
+		F85057BA177CE6980021FC7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85057B9177CE6980021FC7D /* CoreGraphics.framework */; };
+		F85057C0177CE6980021FC7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F85057BE177CE6980021FC7D /* InfoPlist.strings */; };
+		F85057C2177CE6980021FC7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F85057C1177CE6980021FC7D /* main.m */; };
+		F85057C6177CE6980021FC7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F85057C5177CE6980021FC7D /* AppDelegate.m */; };
+		F85057C8177CE6980021FC7D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F85057C7177CE6980021FC7D /* Default.png */; };
+		F85057CA177CE6980021FC7D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F85057C9177CE6980021FC7D /* Default@2x.png */; };
+		F85057CC177CE6980021FC7D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F85057CB177CE6980021FC7D /* Default-568h@2x.png */; };
+		F85057D4177CE6980021FC7D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85057D3177CE6980021FC7D /* SenTestingKit.framework */; };
+		F85057D5177CE6980021FC7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85057B5177CE6980021FC7D /* UIKit.framework */; };
+		F85057D6177CE6980021FC7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85057B7177CE6980021FC7D /* Foundation.framework */; };
+		F85057DE177CE6980021FC7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F85057DC177CE6980021FC7D /* InfoPlist.strings */; };
+		F85057E1177CE6980021FC7D /* backlogmanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F85057E0177CE6980021FC7D /* backlogmanTests.m */; };
+		F85057F6177CE7190021FC7D /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = F85057EC177CE7190021FC7D /* Icon-72.png */; };
+		F85057F7177CE7190021FC7D /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F85057ED177CE7190021FC7D /* Icon-72@2x.png */; };
+		F85057F8177CE7190021FC7D /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = F85057EE177CE7190021FC7D /* Icon-Small-50.png */; };
+		F85057F9177CE7190021FC7D /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F85057EF177CE7190021FC7D /* Icon-Small-50@2x.png */; };
+		F85057FA177CE7190021FC7D /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = F85057F0177CE7190021FC7D /* Icon-Small.png */; };
+		F85057FB177CE7190021FC7D /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F85057F1177CE7190021FC7D /* Icon-Small@2x.png */; };
+		F85057FC177CE7190021FC7D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F85057F2177CE7190021FC7D /* Icon.png */; };
+		F85057FD177CE7190021FC7D /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F85057F3177CE7190021FC7D /* Icon@2x.png */; };
+		F85057FE177CE7190021FC7D /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = F85057F4177CE7190021FC7D /* iTunesArtwork */; };
+		F85057FF177CE7190021FC7D /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = F85057F5177CE7190021FC7D /* iTunesArtwork@2x */; };
+		F8505807177CE9400021FC7D /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = F8505801177CE9400021FC7D /* Default-Landscape.png */; };
+		F8505808177CE9400021FC7D /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8505802177CE9400021FC7D /* Default-Landscape@2x.png */; };
+		F8505809177CE9400021FC7D /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = F8505803177CE9400021FC7D /* Default-Portrait.png */; };
+		F850580A177CE9400021FC7D /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8505804177CE9400021FC7D /* Default-Portrait@2x.png */; };
+		F850580B177CE9400021FC7D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F8505805177CE9400021FC7D /* Default.png */; };
+		F850580C177CE9400021FC7D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8505806177CE9400021FC7D /* Default@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F85057D7177CE6980021FC7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85057AA177CE6980021FC7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F85057B1177CE6980021FC7D;
+			remoteInfo = backlogman;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F85057B2177CE6980021FC7D /* backlogman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = backlogman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85057B5177CE6980021FC7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F85057B7177CE6980021FC7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F85057B9177CE6980021FC7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F85057BD177CE6980021FC7D /* backlogman-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "backlogman-Info.plist"; sourceTree = "<group>"; };
+		F85057BF177CE6980021FC7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F85057C1177CE6980021FC7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F85057C3177CE6980021FC7D /* backlogman-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "backlogman-Prefix.pch"; sourceTree = "<group>"; };
+		F85057C4177CE6980021FC7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F85057C5177CE6980021FC7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F85057C7177CE6980021FC7D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F85057C9177CE6980021FC7D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F85057CB177CE6980021FC7D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F85057D2177CE6980021FC7D /* backlogmanTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = backlogmanTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85057D3177CE6980021FC7D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F85057DB177CE6980021FC7D /* backlogmanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "backlogmanTests-Info.plist"; sourceTree = "<group>"; };
+		F85057DD177CE6980021FC7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F85057DF177CE6980021FC7D /* backlogmanTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = backlogmanTests.h; sourceTree = "<group>"; };
+		F85057E0177CE6980021FC7D /* backlogmanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = backlogmanTests.m; sourceTree = "<group>"; };
+		F85057EC177CE7190021FC7D /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		F85057ED177CE7190021FC7D /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		F85057EE177CE7190021FC7D /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		F85057EF177CE7190021FC7D /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		F85057F0177CE7190021FC7D /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		F85057F1177CE7190021FC7D /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		F85057F2177CE7190021FC7D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F85057F3177CE7190021FC7D /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		F85057F4177CE7190021FC7D /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		F85057F5177CE7190021FC7D /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
+		F8505801177CE9400021FC7D /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
+		F8505802177CE9400021FC7D /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x.png"; sourceTree = "<group>"; };
+		F8505803177CE9400021FC7D /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		F8505804177CE9400021FC7D /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		F8505805177CE9400021FC7D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F8505806177CE9400021FC7D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F85057AF177CE6980021FC7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85057B6177CE6980021FC7D /* UIKit.framework in Frameworks */,
+				F85057B8177CE6980021FC7D /* Foundation.framework in Frameworks */,
+				F85057BA177CE6980021FC7D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85057CE177CE6980021FC7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85057D4177CE6980021FC7D /* SenTestingKit.framework in Frameworks */,
+				F85057D5177CE6980021FC7D /* UIKit.framework in Frameworks */,
+				F85057D6177CE6980021FC7D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F85057A9177CE6980021FC7D = {
+			isa = PBXGroup;
+			children = (
+				F85057EA177CE7190021FC7D /* resources */,
+				F85057BB177CE6980021FC7D /* backlogman */,
+				F85057D9177CE6980021FC7D /* backlogmanTests */,
+				F85057B4177CE6980021FC7D /* Frameworks */,
+				F85057B3177CE6980021FC7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F85057B3177CE6980021FC7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F85057B2177CE6980021FC7D /* backlogman.app */,
+				F85057D2177CE6980021FC7D /* backlogmanTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F85057B4177CE6980021FC7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F85057B5177CE6980021FC7D /* UIKit.framework */,
+				F85057B7177CE6980021FC7D /* Foundation.framework */,
+				F85057B9177CE6980021FC7D /* CoreGraphics.framework */,
+				F85057D3177CE6980021FC7D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F85057BB177CE6980021FC7D /* backlogman */ = {
+			isa = PBXGroup;
+			children = (
+				F85057C4177CE6980021FC7D /* AppDelegate.h */,
+				F85057C5177CE6980021FC7D /* AppDelegate.m */,
+				F85057BC177CE6980021FC7D /* Supporting Files */,
+			);
+			path = backlogman;
+			sourceTree = "<group>";
+		};
+		F85057BC177CE6980021FC7D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F85057BD177CE6980021FC7D /* backlogman-Info.plist */,
+				F85057BE177CE6980021FC7D /* InfoPlist.strings */,
+				F85057C1177CE6980021FC7D /* main.m */,
+				F85057C3177CE6980021FC7D /* backlogman-Prefix.pch */,
+				F85057C7177CE6980021FC7D /* Default.png */,
+				F85057C9177CE6980021FC7D /* Default@2x.png */,
+				F85057CB177CE6980021FC7D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F85057D9177CE6980021FC7D /* backlogmanTests */ = {
+			isa = PBXGroup;
+			children = (
+				F85057DF177CE6980021FC7D /* backlogmanTests.h */,
+				F85057E0177CE6980021FC7D /* backlogmanTests.m */,
+				F85057DA177CE6980021FC7D /* Supporting Files */,
+			);
+			path = backlogmanTests;
+			sourceTree = "<group>";
+		};
+		F85057DA177CE6980021FC7D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F85057DB177CE6980021FC7D /* backlogmanTests-Info.plist */,
+				F85057DC177CE6980021FC7D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F85057EA177CE7190021FC7D /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				F8505800177CE9400021FC7D /* launchImage */,
+				F85057EB177CE7190021FC7D /* AppIcon */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		F85057EB177CE7190021FC7D /* AppIcon */ = {
+			isa = PBXGroup;
+			children = (
+				F85057EC177CE7190021FC7D /* Icon-72.png */,
+				F85057ED177CE7190021FC7D /* Icon-72@2x.png */,
+				F85057EE177CE7190021FC7D /* Icon-Small-50.png */,
+				F85057EF177CE7190021FC7D /* Icon-Small-50@2x.png */,
+				F85057F0177CE7190021FC7D /* Icon-Small.png */,
+				F85057F1177CE7190021FC7D /* Icon-Small@2x.png */,
+				F85057F2177CE7190021FC7D /* Icon.png */,
+				F85057F3177CE7190021FC7D /* Icon@2x.png */,
+				F85057F4177CE7190021FC7D /* iTunesArtwork */,
+				F85057F5177CE7190021FC7D /* iTunesArtwork@2x */,
+			);
+			path = AppIcon;
+			sourceTree = "<group>";
+		};
+		F8505800177CE9400021FC7D /* launchImage */ = {
+			isa = PBXGroup;
+			children = (
+				F8505801177CE9400021FC7D /* Default-Landscape.png */,
+				F8505802177CE9400021FC7D /* Default-Landscape@2x.png */,
+				F8505803177CE9400021FC7D /* Default-Portrait.png */,
+				F8505804177CE9400021FC7D /* Default-Portrait@2x.png */,
+				F8505805177CE9400021FC7D /* Default.png */,
+				F8505806177CE9400021FC7D /* Default@2x.png */,
+			);
+			path = launchImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F85057B1177CE6980021FC7D /* backlogman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85057E4177CE6980021FC7D /* Build configuration list for PBXNativeTarget "backlogman" */;
+			buildPhases = (
+				F85057AE177CE6980021FC7D /* Sources */,
+				F85057AF177CE6980021FC7D /* Frameworks */,
+				F85057B0177CE6980021FC7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = backlogman;
+			productName = backlogman;
+			productReference = F85057B2177CE6980021FC7D /* backlogman.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F85057D1177CE6980021FC7D /* backlogmanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85057E7177CE6980021FC7D /* Build configuration list for PBXNativeTarget "backlogmanTests" */;
+			buildPhases = (
+				F85057CD177CE6980021FC7D /* Sources */,
+				F85057CE177CE6980021FC7D /* Frameworks */,
+				F85057CF177CE6980021FC7D /* Resources */,
+				F85057D0177CE6980021FC7D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F85057D8177CE6980021FC7D /* PBXTargetDependency */,
+			);
+			name = backlogmanTests;
+			productName = backlogmanTests;
+			productReference = F85057D2177CE6980021FC7D /* backlogmanTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F85057AA177CE6980021FC7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Stefan Paychère";
+			};
+			buildConfigurationList = F85057AD177CE6980021FC7D /* Build configuration list for PBXProject "backlogman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F85057A9177CE6980021FC7D;
+			productRefGroup = F85057B3177CE6980021FC7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F85057B1177CE6980021FC7D /* backlogman */,
+				F85057D1177CE6980021FC7D /* backlogmanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F85057B0177CE6980021FC7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85057C0177CE6980021FC7D /* InfoPlist.strings in Resources */,
+				F85057C8177CE6980021FC7D /* Default.png in Resources */,
+				F85057CA177CE6980021FC7D /* Default@2x.png in Resources */,
+				F85057CC177CE6980021FC7D /* Default-568h@2x.png in Resources */,
+				F85057F6177CE7190021FC7D /* Icon-72.png in Resources */,
+				F85057F7177CE7190021FC7D /* Icon-72@2x.png in Resources */,
+				F85057F8177CE7190021FC7D /* Icon-Small-50.png in Resources */,
+				F85057F9177CE7190021FC7D /* Icon-Small-50@2x.png in Resources */,
+				F85057FA177CE7190021FC7D /* Icon-Small.png in Resources */,
+				F85057FB177CE7190021FC7D /* Icon-Small@2x.png in Resources */,
+				F85057FC177CE7190021FC7D /* Icon.png in Resources */,
+				F85057FD177CE7190021FC7D /* Icon@2x.png in Resources */,
+				F85057FE177CE7190021FC7D /* iTunesArtwork in Resources */,
+				F85057FF177CE7190021FC7D /* iTunesArtwork@2x in Resources */,
+				F8505807177CE9400021FC7D /* Default-Landscape.png in Resources */,
+				F8505808177CE9400021FC7D /* Default-Landscape@2x.png in Resources */,
+				F8505809177CE9400021FC7D /* Default-Portrait.png in Resources */,
+				F850580A177CE9400021FC7D /* Default-Portrait@2x.png in Resources */,
+				F850580B177CE9400021FC7D /* Default.png in Resources */,
+				F850580C177CE9400021FC7D /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85057CF177CE6980021FC7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85057DE177CE6980021FC7D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F85057D0177CE6980021FC7D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F85057AE177CE6980021FC7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85057C2177CE6980021FC7D /* main.m in Sources */,
+				F85057C6177CE6980021FC7D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85057CD177CE6980021FC7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85057E1177CE6980021FC7D /* backlogmanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F85057D8177CE6980021FC7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F85057B1177CE6980021FC7D /* backlogman */;
+			targetProxy = F85057D7177CE6980021FC7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F85057BE177CE6980021FC7D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F85057BF177CE6980021FC7D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F85057DC177CE6980021FC7D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F85057DD177CE6980021FC7D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F85057E2177CE6980021FC7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F85057E3177CE6980021FC7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F85057E5177CE6980021FC7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "backlogman/backlogman-Prefix.pch";
+				INFOPLIST_FILE = "backlogman/backlogman-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F85057E6177CE6980021FC7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "backlogman/backlogman-Prefix.pch";
+				INFOPLIST_FILE = "backlogman/backlogman-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F85057E8177CE6980021FC7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/backlogman.app/backlogman";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "backlogman/backlogman-Prefix.pch";
+				INFOPLIST_FILE = "backlogmanTests/backlogmanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F85057E9177CE6980021FC7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/backlogman.app/backlogman";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "backlogman/backlogman-Prefix.pch";
+				INFOPLIST_FILE = "backlogmanTests/backlogmanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F85057AD177CE6980021FC7D /* Build configuration list for PBXProject "backlogman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85057E2177CE6980021FC7D /* Debug */,
+				F85057E3177CE6980021FC7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85057E4177CE6980021FC7D /* Build configuration list for PBXNativeTarget "backlogman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85057E5177CE6980021FC7D /* Debug */,
+				F85057E6177CE6980021FC7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85057E7177CE6980021FC7D /* Build configuration list for PBXNativeTarget "backlogmanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85057E8177CE6980021FC7D /* Debug */,
+				F85057E9177CE6980021FC7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F85057AA177CE6980021FC7D /* Project object */;
+}

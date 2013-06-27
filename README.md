@@ -1,4 +1,3 @@
-backlogman-ios
-==============
+# backlogman-ios
 
-iOS client for the backlogman.com service
+iOS client for the [Backlogman](http://backlogman.com) service.
